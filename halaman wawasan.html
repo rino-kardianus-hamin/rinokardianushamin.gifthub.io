@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css
+" rel="stylesheet" integrity="sha384-
+1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+crossorigin="anonymous">
+<!-- JQuery Link -->
+<script type="text/javascript" src="assets/jquery3.6.0.min.js"></script>
+<script type="text/javascript" src="assets/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/jquery-ui.css">
+<!-- LInk CSS -->
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<title>Tugas Desain Web</title>
+<script type="text/javascript">
+$(function(){
+$("#dialogku").dialog({
+autoOpen:false,
+show:'blind',
+hide:'explode'
+});
+$('#dibuka').click(function(){
+$('#dialogku').dialog('open');
+return false;
+});
+});
+</script>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark main-nav" 
+style="background-color: #DEB887;" >
+ <div class="container py-2">
+ <a class="navbar-brand" href="#">
+ <img src="img/imageslogo.JPG" alt="" width="40" height="34" class="dinline-block align-text-top">
+ Wae <strong>REBO</strong>
+ </a>
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+data-bs-target="#navbarSupportedContent" ariacontrols="navbarSupportedContent" aria-expanded="false" aria-label="Toggle 
+navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <ul class="navbar-nav ms-auto ">
+ <li class="nav-item">
+ <a class="nav-link active" aria-current="page" 
+href="index.html">Home</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="objekwisata.html">Objek Wisata</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="sarana.html">Sarana Akomodasi</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="wawasan.html">Wawasan</a>
+ </li>
+ <form class="d-flex">
+ <input class="form-control me-3" type="search" 
+placeholder="Pencarian" aria-label="Search">
+ </form>
+ </ul>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Cari
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Selamat Datang di Website Kami</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Wae Rebo Merupakan Suatu Warisan Budaya Dunia, yang biasa disebut Negeri Di Atas Awan
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <button type="button" class="btn btn-primary">Simpan Perubahan</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ </div>
+ </div>
+</nav>
+</header>
+ </div>
+ </div>
+</nav>
+</header>
+<!-- Carousel -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Imageee.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Wae Rebo Merupakan Negeri Di Atas Awan yang Begitu Asri</h5>
+        <p>Terkenal dengan sebutan kampung di atas awan, Wae Rebo terletak di ketinggian 1000 mdpl dikelilingi oleh perbukitan yang sangatlah asri. Wae Rebo dinyatakan UNESCO sebagai Warisan Budaya Dunia pada Agustus 2012 menyisihkan 42 negara lain.</p>
+        <button type="button" class="btn btn-success btn-lg" id="dibuka"> <li class="nav-item">
+ <a class="nav-link" href="sarana akomodasi.html">Jelajahi</a>
+ </button>
+  <button type="button" class="btn btn-warning btn-lg"><li class="nav-item">
+ <a class="nav-link" href="https://www.youtube.com/embed/QLVH5ZScdnY">Video</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/images 3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Wae Rebo Merupakan Negeri Di Atas Awan yang Begitu Asri</h5>
+        <p>Terkenal dengan sebutan kampung di atas awan, Wae Rebo terletak di ketinggian 1000 mdpl dikelilingi oleh perbukitan yang sangatlah asri. Wae Rebo dinyatakan UNESCO sebagai Warisan Budaya Dunia pada Agustus 2012 menyisihkan 42 negara lain.</p>
+        <button type="button" class="btn btn-success btn-lg" id="dibuka"> <li class="nav-item">
+ <a class="nav-link" href="sarana akomodasi.html">Jelajahi</a>
+ </button>
+  <button type="button" class="btn btn-warning btn-lg"><li class="nav-item">
+ <a class="nav-link" href="https://www.youtube.com/embed/QLVH5ZScdnY">Video</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/images 2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Wae Rebo Merupakan Negeri Di Atas Awan yang Begitu Asri</h5>
+        <p>Terkenal dengan sebutan kampung di atas awan, Wae Rebo terletak di ketinggian 1000 mdpl dikelilingi oleh perbukitan yang sangatlah asri. Wae Rebo dinyatakan UNESCO sebagai Warisan Budaya Dunia pada Agustus 2012 menyisihkan 42 negara lain.</p>
+      <button type="button" class="btn btn-success btn-lg" id="dibuka"> <li class="nav-item">
+ <a class="nav-link" href="sarana akomodasi.html">Jelajahi</a>
+ </button>
+  <button type="button" class="btn btn-warning btn-lg"><li class="nav-item">
+ <a class="nav-link" href="https://www.youtube.com/embed/QLVH5ZScdnY">Video</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Blog Wawasan -->
+<section>
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+ <ol class="breadcrumb">
+ <li class="breadcrumb-item"><a href="#">Home</a></li>
+ <li class="breadcrumb-item active" ariacurrent="page">Wawasan</li>
+ </ol>
+</nav>
+<hr>
+<div class="row">
+<div class="col-md-5">
+<figure>
+<img src="img/cunca tara.jpg" class="imgthumbnail" width="260px" height="130px">
+<figcaption>Gambar Cunca Tara</figcaption>
+</figure>
+</div>
+<div class="col-md-7">
+<h3><a href="#">Cunca Tara</a></h3>
+<p class="lead">Merupakan suatu tempat yang paling cocok untuk memacu adrenalin. Jika anda ingin kegiatan yang cukup ekstrem datanglah ke Cunca Tara dan menloncat dari atas tebing ke permukaan kolam, Air terjun ini memiliki pancuran yang cukup deras karena ketinggiannya mencapai 20 meter. Dari balik tebing, mengucur air dengan deras. Membuat permukaan kolam air di bawahnya tak bisa tenang.</p>
+<div class="text-muted">
+<small>Fernan Dandut</small>
+<small>14 Januari 2022</small>
+<small>11 comments</small>
+</div>
+</div>
+<hr>
+</div>
+<div class="row">
+<div class="col-md-6">
+<figure>
+<img src="img/todo village.jpg" class="imgthumbnail" width="260px" height="130px">
+<figcaption>Gambar Todo Village</figcaption>
+</figure>
+</div>
+<div class="col-md-6">
+<h3><a href="#">Todo Village</a></h3>
+<p class="lead">Salah satu destinasi wisata budaya yg bisa dikunjungj di Nusa Tenggara Timur, Manggarai. Kampung Todo yang dikenal sebagai pusat peradaban Minangkabau. untuk masuk ksni wisatawan diwajibkan menggunakan pakaian adat yg telah disediakan.</p>
+<div class="text-muted">
+<small>Pelex</small>
+<small>09 Januari 2022</small>
+<small>22 comments</small>
+</div>
+</div>
+<hr>
+</div>
+<div class="row">
+<div class="col-md-6">
+<figure>
+<img src="img/laba laba.jpg" class="imgthumbnail" width="260px" height="130px">
+<figcaption>Gambar Spider Web Rice Fields</figcaption>
+</figure>
+</div>
+<div class="col-md-6">
+<h3><a href="#">Spider Web Rice Fields</a></h3>
+<p class="lead">Biasanya petak-petak sawah berbentuk persegi atau persegi panjang dan digarap sejajar dengan rapi. Namun, di Desa Cancar, Ruteng, Manggarai, Flores, Nusa Tenggara Timur, petak-petak sawah berbentuk menyerupai sarang laba-laba.
+
+Petak sawah unik itu yang bisa menjadi tempat wisata ini disebut Lingko dalam bahasa lokal. Lingko merupakan sebuah warisan adat dan tradisi yaitu tanah adat yang dimiliki secara komunal harus dibagi dan digunakan secara adil untuk memenuhi kebutuhan seluruh masyarakat Manggarai.</p>
+<div class="text-muted">
+<small>Kelvin</small>
+<small>19 Januari 2022</small>
+<small>8 comments</small>
+</div>
+</div>
+<hr>
+</div>
+<div class="row">
+<div class="col-md-6">
+<figure>
+<img src="img/Imageee.jpg" class="imgthumbnail" width="260px" height="130px">
+<figcaption>Gambar Wae Rebo</figcaption>
+</figure>
+</div>
+<div class="col-md-6">
+<h3><a href="#">Wae Rebo</a></h3>
+<p class="lead">Wae Rebo adalah sebuah desa adat terpencil dan misterius di Kabupaten Manggarai, Nusa Tenggara Timur. Terletak di ketinggian 1.200 m di atas permukaan laut. Di kampung ini hanya terdapat 7 rumah utama atau yang disebut sebagai Mbaru Niang</p>
+<div class="text-muted">
+<small>Fitri</small>
+<small>15 Januari 2022</small>
+<small>14 comments</small>
+</div>
+</div>
+<hr>
+</div>
+<nav aria-label="Page navigation example">
+<ul class="pagination justify-content-center">
+ <li class="page-item">
+ <a class="page-link">Previous</a>
+ </li>
+ <li class="page-item"><a class="page-link" 
+href="#">1</a></li>
+ <li class="page-item"><a class="page-link" 
+href="#">2</a></li>
+ <li class="page-item"><a class="page-link" 
+href="#">3</a></li>
+ <li class="page-item">
+ <a class="page-link" href="#">Next</a>
+ </li>
+ </ul>
+</nav>
+</div>
+<div class="col-md-4">
+<div class="row">
+<div class="col">
+<h3 class="text-center">Kategori 
+Berita</h3>
+<hr>
+<ul class="list-group">
+<li class="list-group-item dflex justify-content-between">
+<a href="#" 
+class="text-info">Objek Wisata</a>
+<span class="badge 
+badge-primary badge-pill bg-info">10</span>
+</li>
+<li class="list-group-item dflex justify-content-between">
+<a href="#" 
+class="text-info">Sarana Akomodasi</a>
+<span class="badge 
+badge-primary badge-pill bg-info">20</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- end blog -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path 
+fill="#DEB887" fill-opacity="1" 
+d="M0,64L34.3,74.7C68.6,85,137,107,206,144C274.3,181,343,235,411,224C480,213,
+549,139,617,133.3C685.7,128,754,192,823,202.7C891.4,213,960,171,1029,165.3C10
+97.1,160,1166,192,1234,176C1302.9,160,1371,96,1406,64L1440,32L1440,320L1405.7
+,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,32
+0,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,3
+20,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+<footer class="text-white text-center" style="background-color:#DEB887;">
+<div class="container-fluid" style="background-color:#DEB887">
+<div class="row">
+<div class="col-md-4">
+@2022 Created By Rino Kardianus Hamin
+</div>
+<div class="col-md-4">
+<ul style="text-align:left;" class="list-unstyled">
+<li ><a href="#"></a> Home</li>
+<li ><a href="#objekwisata"></a> Objek Wisata</li>
+<li ><a href="#sarana"></a> Sarana dan Akomodasi</li>
+<li ><a href="#wawasan"></a> Wawasan</li>
+</ul>
+</div>
+<div class="col-md-4">
+<p class="display-6">Wae Rebo</p>
+<p >Wae Rebo adalah sebuah kampung tradisional yang terletak di dusun terpencil tepatnya di Kabupaten Manggarai Provinsi Nusa Tenggara Timur.</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- Bootstrap JS -->
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.mi
+n.js" integrity="sha384-
+ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+</body>
+</html>
